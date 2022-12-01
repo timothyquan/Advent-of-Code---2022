@@ -11,4 +11,4 @@ elves = sorted(elves)
 print(f'The elf with the most has {elves[-1]} calories.')
 
 # part 2
-print(f'The top 3 elves have {sum(elves)[-2:]} calories total.')
+print(f'The top 3 elves have {sum(elves[-3:])} calories total.')
